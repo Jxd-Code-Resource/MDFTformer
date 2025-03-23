@@ -1,11 +1,6 @@
 from data_provider.data_loader import Dataset_Pred, Dataset_BaffleCreek_minute
 from torch.utils.data import DataLoader
 
-data_dict = {
-    'BaffleCreek': Dataset_BaffleCreek_minute,
-    'BaffleCreek2': Dataset_BaffleCreek_minute,
-    'BaffleCreek3': Dataset_BaffleCreek_minute,
-}
 
 
 def data_provider(args, flag):
